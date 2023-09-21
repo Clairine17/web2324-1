@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="tl">Coffee Recipe</h1>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/025/282/026/small/stock-of-mix-a-cup-coffee-latte-more-motive-top-view-foodgraphy-generative-ai-photo.jpg"
+        alt="coffee">
+    <h2 class="latte">Cafe Latte</h2>
+    <h3>Ingredient</h3>
+    <ul>
+        <li>
+            <div>
+                <div>Coffee</div>
+                <div>200 g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>Milk</div>
+                <div>150 g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>Sugar</div>
+                <div>50 g</div>
+            </div>
+        </li>
+        <li>
+            <div>
+                <div>Simple syrup</div>
+                <div>1 shot</div>
+            </div>
+        </li>
+    </ul>
+    <h3 class="make">How to Make</h3>
+    <ol>
+        <li>Add boiling water to the coffee</li>
+        <li>Froth the milk</li>
+        <li>Pour the frothy milk over the coffee</li>
+        <li>Lastly, add the simple syrup</li>
+    </ol>
+    <h3 class="enjoy">Enjoy Your Coffee!</h3>
+</body>
+
+<style>
+    *, html, body {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+        font-family: 'Oswald';
+        background-color: blanchedalmond;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+    .latte {
+        padding: 16px;
+        text-align: center;
+    }
+    .tl {
+        padding: 16px;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.678);
+        background-color: rgb(192, 161, 121);
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        margin-bottom: 16px;
+    }
+    h3 {
+        padding: 16px;
+        text-align:start;
+    }
+    ul li div {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        padding: 0 32px;
+        padding-left: 48px;
+    }
+    .make {
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    ol {
+        padding: 0 32px;
+    }
+    .enjoy {
+        padding-top: 32px;
+        text-align: center;
+    }
+</style>
+
+</html>
